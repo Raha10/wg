@@ -1,0 +1,38 @@
+
+body{
+  	background-image: url("../background.jpg");
+  	background-size: contain;
+
+  }
+ div#head h1{
+	font-size: 60px;
+	font-family: change;
+	color: grey;
+	
+	opacity: 30%;
+
+}
+@font-face{
+	 font-family: change;
+	 src: url("Montague.ttf");
+}
+div#socialicons{
+	float: right;
+	color: white;
+
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 60%;
+      margin: auto;
+
+  }
+  .col-sm-4{
+  	font-size: 20px;
+  	color: white;
+  }
+  
+
+
+  
+            
