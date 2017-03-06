@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.header{
+	font-style: italic;
+	font-size: 20px;
+	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
+    margin-left: 10%
+
+}
+@font-face{
+	font-family: special;
+	src: url("Alpha54.ttf");
+
+}
+.social{
+       float: right;
+}
+
+
+.nav navbar-nav li a{
+	color: grey;
+}
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+
+}
+
+
+ 
+
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 65%;
+      margin: auto;
+
+  }
+  .col-sm-4{
+  	font-size: 20px;
+  	color: black;
+
+  }
+  .headrow{
+  	font-size: 20px;
+  	color: grey;
+  	font-family: changeanother;
+  	background-color: white;
+  	padding: 0%;
+  }
+
+.headrow2{
+	font-size: 40px;
+	color: black;
+}
+.box{
+	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
+}
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+}
+.image-block {
+    border: 3px solid black ;
+    background-color: black;
+    padding: 0;    
+    margin: 0 auto;
+    height:200px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.image-block > p {
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    font-size: 19px;
+    padding-top: 150px;
+    background-color: rgba(3,3,3,0.0);
+    color: rgba(6,6,6,0.0);
+}
+.image-block:hover > p {
+    background-color: rgba(3,3,3,0.5);    
+    color: white;    
+}
+  
+
+
+
+  /*image carousel*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+
+  }
+            
+
+
+
+            
+
+    		.carousel-control.left
+			{
+				background: none;
+			}
+			.carousel-control.right
+			{
+				background: none;
+			}
+
+			.carousel-control
+			{
+				position: absolute;
+				top: 45%;
+				bottom: 0;
+				left: 0;
+				width: 5%;
+				font-size: auto;
+				color: #fff;
+				text-align: center;
+				opacity: 1;
+				text-shadow: none;
+			}
+			.carousel-control:hover
+			{
+				color: white;
+			}
+			.carousel-indicators
+			{
+				bottom: -50px;
+			}
+			.carousel-indicators li
+			{
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				margin: 1px;
+				text-indent: -999px;
+				cursor: pointer;
+				background-color: #000\9;
+				background-color: rgba(0,0,0,0);
+				border: 1px solid #16a085;
+				border-radius: 50%;
+			}
+			.carousel-indicators .active
+			{
+				width: 12px;
+				height: 12px;
+				margin: 0;
+				background-color: #16a085;
+			}
+			.carousel-caption
+			{
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				z-index: 10;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				color: #fff;
+				text-align: center;
+				background: rgba(0,0,0,0.4);
+			}
+
+
+
+	
+
+
+
+/* text carousel*/
+	.body {
+  background-color: #333333;
+
+}
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: 10px;
+  padding: 10px;
+  padding-bottom: 80%;
+}
+
+
+.greyback{
+	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
+}
+
+
+
