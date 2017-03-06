@@ -8,7 +8,7 @@
 	font-style: italic;
 	font-size: 15px;
 	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
-    margin-left: 10%
+    
 
 }
 @font-face{
@@ -192,8 +192,8 @@
 
 /* text carousel*/
 	.body {
-  background-color: white;
-  opacity: 0.9;
+  background-color: black;
+  
   
 }
 
@@ -208,6 +208,7 @@
   width:100%;
   height: auto;
   margin-right: 30%;
+  background-color: black;
 
   
  
@@ -255,4 +256,7 @@ html, body {
 
    body { font-size: 2em; }
 
+}
+.footer{
+	color: grey;
 }
