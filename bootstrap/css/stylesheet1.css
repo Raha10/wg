@@ -21,6 +21,14 @@
 
 }
 
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+height: 92px;
+z-index: 1;
+position: absolute;
+width: 78%;
+bottom: 0;
+}
 
 .nav navbar-nav li a{
 	color: grey;
@@ -29,7 +37,7 @@
 .navbar-default {
     background-color: #F8F8F8;
     border-color: #E7E7E7;
-
+     
 }
 
 
@@ -63,21 +71,6 @@
 .box{
 	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
 }
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
 
 
 }
@@ -259,4 +252,12 @@ html, body {
 }
 .footer{
 	color: grey;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px)
+{
+
+	.overlay{
+		width: 83%;
+	}
 }
