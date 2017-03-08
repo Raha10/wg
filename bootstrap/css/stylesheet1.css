@@ -26,8 +26,10 @@
 height: 92px;
 z-index: 1;
 position: absolute;
-width: 78%;
+width: 70%;
 bottom: 0;
+padding-left: 15%;
+margin-left: 26px;
 }
 
 .nav navbar-nav li a{
