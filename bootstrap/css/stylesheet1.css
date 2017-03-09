@@ -21,16 +21,6 @@
 
 }
 
-.overlay{
-	background-color: rgba(0,0,0,0.5);
-height: 92px;
-z-index: 1;
-position: absolute;
-width: 77.5%;
-bottom: 0;
-padding-left: 15%;
-
-}
 
 .nav navbar-nav li a{
 	color: grey;
@@ -263,3 +253,19 @@ html, body {
 		width: 83%;
 	}
 }
+
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+height: 92px;
+z-index: 1;
+position: absolute;
+width: 77.5%;
+bottom: 0;
+padding-left: 15%;
+
+}
+textarea {	
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;	
+width: 100%;}
