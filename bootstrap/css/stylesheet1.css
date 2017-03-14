@@ -3,44 +3,35 @@
 	padding: 0;
 }
 
-
+/*header part*/
 .header{
 	font-style: italic;
 	font-size: 15px;
-	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
+	
+	padding-left: 5%;
+    padding-top: 6%;
+
     
 
 }
+/*font */
 @font-face{
 	font-family: special;
 	src: url("Alpha54.ttf");
 
 }
+/*socail icons*/
 .social{
        float: right;
+       padding-right: 5%;
 
 }
 
-
-.nav navbar-nav li a{
-	color: grey;
-}
-
-.navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
-     
-}
 
 
  
 
 
-
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 65%;
-      margin: auto;
 
   }
   .col-sm-4{
@@ -48,20 +39,19 @@
   	color: black;
 
   }
-  .headrow{
+  .headrow center{
   	font-size: 20px;
   	color: grey;
   	font-family: changeanother;
   	background-color: white;
-  	padding: 0%;
+  	padding-bottom: 5%;
+  	
   }
 
-.headrow2{
-	font-size: 40px;
+.headrow2 center{
+	font-size: 60px;
 	color: black;
-}
-.box{
-	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
+	padding-bottom: 10%;
 }
 
 
@@ -97,7 +87,10 @@
   .carousel-inner > .item > a > img {
       width: 100%;
       margin: auto;
-
+      padding-top: 5%;
+      padding-bottom: 10%;
+      padding-left: 5%;
+      padding-right: 5%;
   }
             
 
@@ -133,7 +126,7 @@
 			}
 			.carousel-indicators
 			{
-				bottom: -50px;
+				bottom: 120px;
 			}
 			.carousel-indicators li
 			{
@@ -147,6 +140,7 @@
 				background-color: rgba(0,0,0,0);
 				border: 1px solid #16a085;
 				border-radius: 50%;
+				bottom: 120px;
 			}
 			.carousel-indicators .active
 			{
@@ -154,6 +148,7 @@
 				height: 12px;
 				margin: 0;
 				background-color: #16a085;
+				bottom: 120px;
 			}
 			.carousel-caption
 			{
@@ -171,8 +166,23 @@
 
 
 
-	
+	.col-sm-4{
+  	font-size: 20px;
+  	color: black;
 
+  }
+  .headrow{
+  	font-size: 20px;
+  	color: grey;
+  	font-family: changeanother;
+  	background-color: white;
+  	padding: 0%;
+  }
+
+.headrow2{
+	font-size: 30px;
+	color: black;
+}
 
 
 /* text carousel*/
@@ -205,7 +215,7 @@
 
 
 .greyback{
-	background-image: url("../Light-Grey-Gradient-Background-2.jpg");
+	background-image: url("../portfoliobg.jpg");
 }
 
 
@@ -244,13 +254,31 @@ html, body {
 }
 .footer{
 	color: grey;
+	padding-top: 10%;
+	padding-left: 7%;
+	padding-right: 4%;
+
 }
 
-@media only screen and (min-width: 300px) and (max-width: 479px)
+@media only screen and (min-width: 320px) and (max-width: 479px)
 {
 
 	.overlay{
 		width: 83%;
+	}
+}
+@media only screen and (min-width: 1001px) and (max-width: 382px)
+{
+
+	.overlay{
+		width: 83%;
+	}
+}
+@media only screen  and (max-width: 745px)
+{
+
+	.overlay{
+		width: 100%;
 	}
 }
 
@@ -259,7 +287,7 @@ html, body {
 height: 92px;
 z-index: 1;
 position: absolute;
-width: 77.5%;
+width: 71.5%;
 bottom: 0;
 padding-left: 15%;
 
@@ -269,3 +297,5 @@ textarea {
 -moz-box-sizing: border-box;
 box-sizing: border-box;	
 width: 100%;}
+
+
