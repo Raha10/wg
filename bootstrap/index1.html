@@ -19,10 +19,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <link rel="stylesheet" href="/lib/w3.css">
+<link rel="stylesheet" type="text/css" href="WOW-master/css/libs/animate.css">
 
 
 </head>
 <body>
+<script type="text/javascript" src="WOW-master/dist/wow.min.js"></script>
+
+<script type="text/javascript">
+
+wow = new WOW(
+{
+boxClass:'wow',
+animateClass:'animated',
+offset:100
+}
+);
+wow.init();
+</script>
 
 
 
@@ -60,7 +74,7 @@
 
 
 			            <div class="item">
-			               <img src="pic1.jpg" alt="FOREST " width="460" height="345" class=img-responsive>
+			               <img src="PIC2" alt="FOREST " width="460" height="345" class=img-responsive>
 			            </div>
 			            <div class="item">
 			               <img src="pic1.jpg" alt="KAABIL " width="460" height="345" class=img-responsive>
@@ -78,29 +92,29 @@
 
 <div class="container headofwrite" >
 
-    <div class="headrow">
+    <div class="headrow wow rollIn">
       <center>~Welcome to my portfolio~</center>
     </div>
-    <div class="headrow2">
+    <div class="headrow2 wow rollIn" >
       <center>"I make beautiful things happen"</center>
     </div>
 
  <div class="row">
-  <div class="col-sm-4 "><span class="glyphicon glyphicon-user"></span>   A little about me...<br><br>
+  <div class="col-sm-4 wow zoomInLeft"><span class="glyphicon glyphicon-user"></span>   A little about me...<br><br>
 <p style="font-size: 15px;color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 </p></div>
-  <div class="col-sm-4 " ><span class="glyphicon glyphicon-envelope">   I'm really good at.......<br><br><br>
+  <div class="col-sm-4 wow rotateIn" ><span class="glyphicon glyphicon-envelope">   I'm really good at.......<br><br><br>
 <p style="font-size: 15px;color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt  labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
-  <div class="col-sm-4 " ><span class="glyphicon glyphicon-cog"></span>    Services i provide<br><br>
+  <div class="col-sm-4 wow zoomInDown" ><span class="glyphicon glyphicon-cog"></span>    Services i provide<br><br>
  <p style="font-size: 15px;color: grey;""> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -115,40 +129,41 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 
 <div class="greyback">
 
-<div class="container-fluid imggallery">
+<div class="container imggallery">
 
     <div class="row">
 
        <div class="col-sm-6">
-                <div class="row row1" >
-                    <div class=" image-block col-sm-6" style="background: url(web.jpg) no-repeat center top; ">
-                         <p> WEB </p>
+            <div class="row row1 wow fadeInLeft" >
+                <div class="  col-sm-6" >
+                     <img src="web.jpg" >
 
-                     </div>
-                    <div class="image-block col-sm-6" style="background: url(happy.jpg) no-repeat center top ;">
-                          <p> HE IS HAPPY</p> 
-                    </div>
+                 </div>
+                <div class="col-sm-6" >
+                      <img src="happy.jpg" >
                 </div>
-            <div class="row row1" >
-                    <div class="image-block col-sm-6" style="background: url(harmony.jpg) no-repeat center   top;">
-                        <p> LETS LIVE IN HARMONY </p>
-                   </div>
-                    <div class="image-block col-sm-6" style="background: url(whitedot.jpg) no-repeat center   top;">
-                          <p> CRAZY BUBBLES </p>
-                   </div>
             </div>
-           <div class="row row1">
-                    <div class="image-block col-sm-6" style="background: url(boy.jpg) no-repeat center top;">
-                      <p> THE BOY </p>
-                  </div>
-                  <div class="image-block col-sm-6" style="background: url(dna.jpg) no-repeat center top;">
-                      <p> DNA FRAGMENTS </p>
-                  </div>
-           </div>
-    </div>
+        <div class="row row2 wow fadeInLeft" >
+                <div class=" col-sm-6" >
+                    <img src="harmony.jpg" >
+               </div>
+                <div class=" col-sm-6" >
+                      <img src="whitedot.jpg" >
+               </div>
+        </div>
+       <div class="row row3 wow fadeInLeft">
+                <div class="col-sm-6">
+                  <img src="boy.jpg" >
+              </div>
+              <div class="col-sm-6" >
+              <img src="dna.jpg" >
+                  
+              </div>
+       </div>
+</div>
 
        <div class="col-sm-6 " >
-              <div class="w3-content w3-display-container">
+              <div class="w3-content w3-display-container wow rotateInUpRight" style="padding-top: 2%;">
   <div class="overlay"></div>
     <div class="w3-display-container mySlides"  >
 
@@ -242,10 +257,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 
 
 
-<!-- </head>
- -->
-<!-- <body>
- -->
+
 
 
 
@@ -258,17 +270,17 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
                 <i class="glyphicon glyphicon-user"></i>
                 <input type="text" class="form-control"  placeholder=" Enter your name" style="background-color:  #e5e4e3
             ; " />
-            </div>
+            </div><br>
 
                <div class="inner-addon left-addon">
                 <i class="glyphicon glyphicon-envelope"></i>
                 <input type="text" class="form-control"  placeholder=" Enter your email" style="background-color:  #e5e4e3
             ; "/>
-            </div>
+            </div><br>
 
             <div class="inner-addon left-addon">
               <i class="glyphicon glyphicon-globe"></i>
-              <input type="text" class="form-control"  placeholder=" Enter your website url" style="background-color:  #e5e4e3;">
+              <input type="text" class="form-control"  placeholder=" Enter your website url" style="background-color:  #e5e4e3;"><br>
           
 
 
@@ -290,8 +302,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 
 
                     <div class=" col-sm-6" >
-                    <div class="row" >
-                         <img src="john1.jpg" class="img-responsive" style="margin-left: 2.5%;">
+                    <div class="row formimage wow flip" >
+                         <img src="john1.jpg" class="img-responsive" style="margin-left: 2.5%;background-size: cover;">
                          <p class="contacts" > Contact me: 123-456-789</p>
                          <p class="contacts" > Email me: JohnDoe@gmail.com</p>
 
@@ -302,15 +314,15 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 </div>
 </div>
 
-<!--Pulling Awesome Font -->
 
 
-<div class="container footerpart" >
+
+<div class="container footerpart" style="width: 100%;">
 
 
-<div class="footer" >
-Copyright &copy; 2015 John Doe.All rights reserved.
-<div class="social">
+<div class="footer " >
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright &copy; 2015 John Doe.All rights reserved.
+<div class="social ">
 <a href=""><i class="fa fa-twitter" ></i></a>
 <a href=""><i class="fa fa-facebook"></i></a>
 <a href=""><i class="fa fa-vimeo-square"></i></a>
