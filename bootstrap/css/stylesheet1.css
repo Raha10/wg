@@ -158,7 +158,9 @@ body{
 .leftbutton{
 	margin-right: 61%; margin-left:1%;position: absolute; bottom: 4%;left: 2%;z-index: 2;
 }
-
+.w3-content {
+	padding-top: 2%;
+}
 
   /*image carousel*/
   .carousel-inner > .item > img,
@@ -242,6 +244,7 @@ body{
 				background: rgba(0,0,0,0.4);
 			}
 
+
 .container head{
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -320,31 +323,15 @@ html, body {
 	
 
 }
-
-@media only screen and (min-width: 320px) and (max-width: 1245px)
-{
-
-	.overlay{
-		width: 71.5%;
-	}
-}
-
-@media only screen  and (max-width: 745px)
-{
-
-	.overlay{
-		width: 100%;
-	}
-}
-
 .overlay{
 	background-color: rgba(0,0,0,0.5);
-height: 92px;
+height: 91px;
 z-index: 1;
 position: absolute;
 width: 94%;
 bottom: 0;
-padding-left: 15%;
+padding-left: 0%;
+
 
 }
 textarea {	
@@ -391,4 +378,91 @@ padding-bottom: 1%;
 }
 .a{
 	padding-left: 10%;
+}
+.inner-addon input{
+	background-color:  #e5e4e3;
+}
+.inner-addon textarea{
+	background-color:  #e5e4e3;
+}
+.inner-addon button{
+	background-color:  #e5e4e3;
+}
+.formimage img{
+	margin-left: 2.5%;background-size: cover;
+}
+/*@media only screen and (max-width: 600px) {
+
+   .overlay{
+   	width: 95%;
+   }
+
+}*/
+
+@media (max-width: 990px) {
+
+   .overlay{
+   	width: 92%;
+
+
+   }
+   .rightbutton{
+   	margin-left: 88%;
+
+   }
+   .leftbutton{
+   	margin-left: 3%;
+   }
+
+}
+
+@media (max-width: 768px) {
+
+   .overlay{
+   	width: 94%;
+
+
+   }
+   .rightbutton{
+   	margin-left: 91%;
+
+   }
+   .leftbutton{
+   	margin-left: 1%;
+   }
+
+}
+
+@media (max-width: 480px) {
+
+   .overlay{
+   	width: 93%;
+
+
+   }
+   .rightbutton{
+   	margin-left: 89%;
+
+   }
+   .leftbutton{
+   	margin-left: 2%;
+   }
+
+}
+
+@media (max-width: 320px) {
+
+   .overlay{
+   	width: 87%;
+
+
+   }
+   .rightbutton{
+   	margin-left: 86%;
+
+   }
+   .leftbutton{
+   	margin-left: 3%;
+   }
+
 }
