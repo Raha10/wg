@@ -11,14 +11,14 @@
 	<title>
 		SAMPLE WEBSITE
 	</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/stylesheet1.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="css/bootstrap-responsive.css" rel="stylesheet">
-<link rel="stylesheet" href="/lib/w3.css">
+<!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="/lib/w3.css"> -->
 <link rel="stylesheet" type="text/css" href="WOW-master/css/libs/animate.css">
 
 
@@ -43,7 +43,8 @@ wow.init();
 
 
 
-<div class="container " style="width: 100%;">
+<div class="container" >
+<div class="row">
 <div class="header">
   John R.Doe./  Designer & Developer
 
@@ -84,38 +85,39 @@ wow.init();
 			   <!-- Left and right controls -->
          	 </div></div>
 			</div>
+      </div>
       
       
       
       
 
 
-<div class="container headofwrite" >
+<div class="container " >
 
-    <div class="headrow wow rollIn">
+    <div class="headrow ">
       <center>~Welcome to my portfolio~</center>
     </div>
-    <div class="headrow2 wow rollIn" >
+    <div class="headrow2 " >
       <center>"I make beautiful things happen"</center>
     </div>
 
- <div class="row">
-  <div class="col-sm-4 wow zoomInLeft"><span class="glyphicon glyphicon-user"></span>   A little about me...<br><br>
+ <div class="row wow slideInUp" >
+  <div class="col-sm-4 "><span class="glyphicon glyphicon-user"></span>   A little about me...<br><br>
 <p style="font-size: 15px;color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 </p></div>
-  <div class="col-sm-4 wow rotateIn" ><span class="glyphicon glyphicon-envelope">   I'm really good at.......<br><br><br>
+  <div class="col-sm-4 " ><span class="glyphicon glyphicon-envelope">   I'm really good at.......<br><br><br>
 <p style="font-size: 15px;color: grey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt  labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
-  <div class="col-sm-4 wow zoomInDown" ><span class="glyphicon glyphicon-cog"></span>    Services i provide<br><br>
- <p style="font-size: 15px;color: grey;""> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  <div class="col-sm-4 " ><span class="glyphicon glyphicon-cog"></span>    Services i provide<br><br>
+ <p style="font-size: 15px;color: grey;" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -163,11 +165,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 </div>
 
        <div class="col-sm-6 " >
-              <div class="w3-content w3-display-container wow rotateInUpRight" style="padding-top: 2%;">
+              <div class="w3-content w3-display-container " style="padding-top: 2%;">
   <div class="overlay"></div>
     <div class="w3-display-container mySlides"  >
 
-      <img class="img1">
+      <img class="img1 " >
       <div class="imageslide"  >
         <center><p class ="writingonimage"> THE GIRL PAINTED ....</p></center>
     </div>
@@ -209,30 +211,30 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 
 
 
-            <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
 
-            function plusDivs(n) {
-              showDivs(slideIndex += n);
-            }
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
 
-            function showDivs(n) {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              if (n > x.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = x.length}
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";
-              }
-              x[slideIndex-1].style.display = "block";
-            }
-            </script>
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+        }
+        </script>
 
 
-            </div>
-            </div>
-            </div>
+        </div>
+        </div>
+        </div>
 
             
             <!--end of bigger row -->
@@ -249,19 +251,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container formpart">
+<div class="container formpart">
          <div class="row formrow" >
         <div class="col-sm-6" >
               <form>
@@ -292,22 +282,22 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
                 </div>
 
 
- <button type="submit" class="btn btn-default" style="background-color:  #e5e4e3
-; ">Submit</button>
-</form>
-</div>
+             <button type="submit" class="btn btn-default" style="background-color:  #e5e4e3
+            ; ">Submit</button>
+            </form>
+            </div>
 
 
 
 
 
-                    <div class=" col-sm-6" >
-                    <div class="row formimage wow flip" >
-                         <img src="john1.jpg" class="img-responsive" style="margin-left: 2.5%;background-size: cover;">
-                         <p class="contacts" > Contact me: 123-456-789</p>
-                         <p class="contacts" > Email me: JohnDoe@gmail.com</p>
+                <div class=" col-sm-6" >
+                <div class="row formimage " >
+                     <img src="john1.jpg" class="img-responsive" style="margin-left: 2.5%;background-size: cover;">
+                     <p class="contacts" > Contact me: 123-456-789</p>
+                     <p class="contacts" > Email me: JohnDoe@gmail.com</p>
 
-                     </div>
+                 </div>
 
             </div>
 
@@ -317,11 +307,11 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></d
 
 
 
-<div class="container footerpart" style="width: 100%;">
+<div class="container footerpart">
 
 
-<div class="footer " >
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCopyright &copy; 2015 John Doe.All rights reserved.
+<div class="row footer " >
+Copyright &copy; 2015 John Doe.All rights reserved.
 <div class="social ">
 <a href=""><i class="fa fa-twitter" ></i></a>
 <a href=""><i class="fa fa-facebook"></i></a>
