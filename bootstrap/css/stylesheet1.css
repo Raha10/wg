@@ -109,7 +109,9 @@ body{
 	background-size: cover;width: 100%;
 }
 
-
+.row p{
+	font-size: 15px;color: grey;
+}
 
 
 .img1{
