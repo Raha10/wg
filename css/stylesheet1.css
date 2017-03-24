@@ -128,19 +128,21 @@ body{
 	
 	
 
-}.img2{
+.img2{
 	background: url(../images/boy.jpg);
 	width:100%;
 	height: 577px;
 	position: relative;
 	background-size: cover;
-}.img3{
+}
+.img3{
 	background: url(../images/web.jpg);
 	width:100%;
 	height: 577px;
 	position: relative;
 	background-size: cover;
-}.img4{
+}
+.img4{
 	background: url(../images/happy.jpg);
 	width:100%;
 	height: 577px;
